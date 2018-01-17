@@ -1,0 +1,13 @@
+#test adding an edge to self
+
+#create graph
+CreateGraph graph1
+
+#add node
+AddNode graph1 node1
+
+#add edge
+AddEdge graph1 node1 node1 selfEdge
+
+#print children/ edge
+ListChildren graph1 node1

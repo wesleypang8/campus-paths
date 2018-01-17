@@ -1,0 +1,13 @@
+#test adding an edge to self
+
+#create graph
+created graph graph1
+
+#add node
+added node node1 to graph1
+
+#add edge
+added edge selfEdge from node1 to node1 in graph1
+
+#print children/ edge
+the children of node1 in graph1 are: node1(selfEdge)

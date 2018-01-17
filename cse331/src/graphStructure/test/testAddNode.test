@@ -1,0 +1,10 @@
+#test adding node to graph
+
+#Create graph
+CreateGraph graph1
+
+#Add a node
+AddNode graph1 node1
+
+#print nodes
+ListNodes graph1

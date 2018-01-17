@@ -1,0 +1,14 @@
+#test adding edge between nodes
+
+#create graph
+CreateGraph graph1
+
+#add nodes
+AddNode graph1 node1
+AddNode graph1 node2
+
+#add edge
+AddEdge graph1 node1 node2 newEdge
+
+#print children/edge
+ListChildren graph1 node1

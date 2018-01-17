@@ -1,0 +1,7 @@
+#Test construct an empty graph
+
+#Create a graph
+CreateGraph emptyG
+
+#List nodes 
+ListNodes emptyG

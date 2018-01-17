@@ -1,0 +1,15 @@
+#test multiple edges between nodes
+
+#create graph
+created graph graph1
+
+#add nodes
+added node node1 to graph1
+added node node2 to graph1
+
+#add edge
+added edge edge1 from node1 to node2 in graph1
+added edge edge2 from node1 to node2 in graph1
+
+#print children/ edges
+the children of node1 in graph1 are: node2(edge1) node2(edge2)

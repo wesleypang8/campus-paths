@@ -1,0 +1,20 @@
+#test several different edge combinations
+
+#create graph
+CreateGraph graph1
+
+#add nodes
+AddNode graph1 me
+AddNode graph1 parent
+AddNode graph1 friend
+
+#add edges
+AddEdge graph1 parent me p2m
+AddEdge graph1 me friend m2f
+AddEdge graph1 friend me f2m
+
+#print children/ edges and nodes in graph
+ListNodes graph1
+ListChildren graph1 parent
+ListChildren graph1 me
+ListChildren graph1 friend

@@ -1,0 +1,21 @@
+Menu:
+    r to find a route
+    b to see a list of all buildings
+    q to quit
+
+Enter an option ('m' to see the menu): #test unknown start/end locations for path
+
+#unknown start
+Abbreviated name of starting building: Abbreviated name of ending building: Unknown building: BOO
+
+Enter an option ('m' to see the menu): 
+#unknown end
+Abbreviated name of starting building: Abbreviated name of ending building: Unknown building: BOO
+
+Enter an option ('m' to see the menu): 
+#both unknown
+Abbreviated name of starting building: Abbreviated name of ending building: Unknown building: OOG
+Unknown building: BOO
+
+Enter an option ('m' to see the menu): 
+# All of your test scripts should end with q to terminate the program.

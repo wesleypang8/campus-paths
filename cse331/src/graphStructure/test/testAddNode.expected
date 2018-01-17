@@ -1,0 +1,10 @@
+#test adding node to graph
+
+#Create graph
+created graph graph1
+
+#Add a node
+added node node1 to graph1
+
+#print nodes
+graph1 contains: node1

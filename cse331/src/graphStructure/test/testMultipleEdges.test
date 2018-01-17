@@ -1,0 +1,15 @@
+#test multiple edges between nodes
+
+#create graph
+CreateGraph graph1
+
+#add nodes
+AddNode graph1 node1
+AddNode graph1 node2
+
+#add edge
+AddEdge graph1 node1 node2 edge1
+AddEdge graph1 node1 node2 edge2
+
+#print children/ edges
+ListChildren graph1 node1

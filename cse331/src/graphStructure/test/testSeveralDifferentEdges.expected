@@ -1,0 +1,20 @@
+#test several different edge combinations
+
+#create graph
+created graph graph1
+
+#add nodes
+added node me to graph1
+added node parent to graph1
+added node friend to graph1
+
+#add edges
+added edge p2m from parent to me in graph1
+added edge m2f from me to friend in graph1
+added edge f2m from friend to me in graph1
+
+#print children/ edges and nodes in graph
+graph1 contains: friend me parent
+the children of parent in graph1 are: me(p2m)
+the children of me in graph1 are: friend(m2f)
+the children of friend in graph1 are: me(f2m)

@@ -1,0 +1,19 @@
+#test unknown start/end locations for path
+
+#unknown start
+r
+BOO
+CSE
+
+#unknown end
+r
+CSE
+BOO
+
+#both unknown
+r
+OOG
+BOO
+
+# All of your test scripts should end with q to terminate the program.
+q

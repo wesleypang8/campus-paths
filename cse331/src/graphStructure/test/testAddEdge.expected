@@ -1,0 +1,14 @@
+#test adding edge between nodes
+
+#create graph
+created graph graph1
+
+#add nodes
+added node node1 to graph1
+added node node2 to graph1
+
+#add edge
+added edge newEdge from node1 to node2 in graph1
+
+#print children/edge
+the children of node1 in graph1 are: node2(newEdge)
